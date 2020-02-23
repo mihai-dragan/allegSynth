@@ -1,0 +1,2 @@
+# allegSynth
+Stanleys Software Synthesizer
