@@ -1,0 +1,15 @@
+matrix:
+    include:
+        language: c
+        os: osx
+        install: 
+        compiler: gcc
+        env:
+            - MATRIX_EVAL="CC=gcc-4.9 && CXX=g++-4.9"
+before_install:
+    - eval "${MATRIX_EVAL}"
+addons:
+  homebrew:
+    packages:
+    - libogg
+    update: true
